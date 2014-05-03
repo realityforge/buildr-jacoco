@@ -1,6 +1,8 @@
 /artifacts
 /target
+/*/target
 /reports
+/*/reports
 /*.iws
 /*.ipr
 /*.iml
