@@ -1,0 +1,8 @@
+/artifacts
+/target
+/reports
+/*.iws
+/*.ipr
+/*.iml
+/**/*.iml
+/Gemfile.lock
