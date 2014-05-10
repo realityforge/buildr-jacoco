@@ -14,6 +14,9 @@ define 'buildr-jacoco' do
   define 'b' do
     test.using :integration
     test.using :testng
+
+    integration.setup { selenium.run }
+    integration.teardown { selenium.stop }
   end
 
   jacoco.generate_xml = true
